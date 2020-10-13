@@ -1,7 +1,4 @@
 
-setwd("/Users/gaotian/OneDrive\ -\ Northwestern\ University/projects/manuscripts/pmnm2020/")
-
-
 ### load R packages####
 
 library(tidyverse)

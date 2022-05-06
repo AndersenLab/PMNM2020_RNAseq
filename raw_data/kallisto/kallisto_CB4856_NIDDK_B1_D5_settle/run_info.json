@@ -1,0 +1,13 @@
+{
+	"n_targets": 65547,
+	"n_bootstraps": 100,
+	"n_processed": 35414358,
+	"n_pseudoaligned": 34378439,
+	"n_unique": 8488801,
+	"p_pseudoaligned": 97.1,
+	"p_unique": 24.0,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Mon Aug 10 16:37:20 2020",
+	"call": "kallisto quant --bootstrap 100 -i CB4856.transcriptome.index -o kallisto_CB4856_NIDDK_B1_D5_settle --threads=8 CB4856_NIDDK_B1_D5_settle_fastp1.fq.gz CB4856_NIDDK_B1_D5_settle_fastp2.fq.gz"
+}

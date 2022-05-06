@@ -1,0 +1,13 @@
+{
+	"n_targets": 65547,
+	"n_bootstraps": 100,
+	"n_processed": 28374156,
+	"n_pseudoaligned": 27778308,
+	"n_unique": 7408018,
+	"p_pseudoaligned": 97.9,
+	"p_unique": 26.1,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Mon Aug 10 16:38:47 2020",
+	"call": "kallisto quant --bootstrap 100 -i N2.transcriptome.index -o kallisto_N2_NIDDK_B2_D9_bleach --threads=8 N2_NIDDK_B2_D9_bleach_fastp1.fq.gz N2_NIDDK_B2_D9_bleach_fastp2.fq.gz"
+}

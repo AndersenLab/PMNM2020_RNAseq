@@ -134,5 +134,5 @@ wald_deg <- pw_wald %>%
 
 #unique(wald_deg$comparison)
 
- write.csv(wald_deg,paste("../results/file_2_wald_6pairwise_comparison_DEGs.csv",sep = ""), row.names = F, quote = FALSE)
+ write.csv(wald_deg,paste("../DEresults/file_2_wald_6pairwise_comparison_DEGs.csv",sep = ""), row.names = F, quote = FALSE)
 

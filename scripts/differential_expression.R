@@ -81,7 +81,7 @@ for (cp_name in comp){
   txi.kallisto_sub <- tximport(files_sub, type = "kallisto", tx2gene = tx2gene)
   
   
-  ################### PAIRWISE wald 
+  ###### DESeq  #####
   
   
   
@@ -105,6 +105,7 @@ for (cp_name in comp){
   
   res  <- results(dds) 
   
+  # pull DE wald test results
   res_df <- res %>%
     data.frame() %>%
     rownames_to_column(var="ens_gene") %>%
